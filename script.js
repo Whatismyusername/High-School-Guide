@@ -1,0 +1,14 @@
+$("document").ready(function(){
+    $("#freshman").click(function(){
+        window.location.assign("freshman.html");
+    });
+    $("#sophomore").click(function(){
+        window.location.assign("sophomore.html");
+    });
+    $("#junior").click(function(){
+        window.location.assign("junior.html");
+    });
+    $("#senior").click(function(){
+        window.location.assign("senior.html");
+    });
+})

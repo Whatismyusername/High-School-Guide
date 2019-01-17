@@ -1,0 +1,92 @@
+html{
+    margin:0;
+}
+body{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    margin:0;
+}
+.wholePage{
+    position:relative;
+    height:100vh;
+}
+.backImg{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    opacity:0.5;
+}
+h1{
+    font-size:5rem;
+}
+h2{
+    font-size:5rem;
+    margin:0;
+}
+
+p{
+    margin:0;
+}
+hr{
+    border:black solid 2px;
+    margin:0;
+}
+.heading{
+    position:relative;
+    top:33%;
+    height:40vh;
+    width:500px;
+    margin:auto;
+    text-align:center;
+}
+#coverPage{
+    background-image:url("https://media.giphy.com/media/AohQOlWnW9NIs/giphy.gif");
+}
+#freshmanDiv{
+    background-image:url(freshman.gif);
+}
+#sophomoreDiv{
+    background-image:url(sophomore.gif);
+}
+#juniorDiv{
+    background-image:url(junior.gif);
+}
+#seniorDiv{
+    background-image:url(senior.gif);
+}
+#freshman{
+    opacity:1;
+}
+.half{
+    position:relative;
+    margin:0;
+    height:100%;
+    width:50%;
+    float:left;
+}
+#description, .focus{
+    position:relative;
+    display:inline-block;
+    font-family:'Dosis', sans-serif;
+    font-size:1.8rem;
+}
+#descriptionTitle{
+    text-align:center;
+}
+#descriptionText, .focusChild{
+    margin:20%;
+    padding:5%;
+    border:black solid 2px;
+    border-radius:10px;
+}
+
+.focusTitle{
+    text-align:center;
+    font-weight:bold;
+    font-family:'Dosis', sans-serif;
+}
+.focus{
+    width:100vw;
+}
