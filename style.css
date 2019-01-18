@@ -81,6 +81,10 @@ hr{
     border:black solid 2px;
     border-radius:10px;
 }
+.list{
+    margin-top:5px;
+    cursor:pointer;
+}
 
 .focusTitle{
     text-align:center;
@@ -89,4 +93,61 @@ hr{
 }
 .focus{
     width:100vw;
+}
+
+
+.programDropdown, .volunteeringDropdown, .internshipDropdown{
+    margin-top:5%;
+    margin-bottom:5%;
+    border:black solid 1px;
+    border-radius:10px;
+    padding:5%;
+}
+.dropdownList{
+    padding:5%;
+}
+.programTitle, .volunteeringTitle, .internshipTitle{
+    font-weight:bold;
+    text-decoration: underline;
+    text-align:center;
+    font-size:2rem;
+}
+.programCategory{
+    font-size:1rem;
+    text-align:center;
+}
+.programDescription, .internshipDescription, .surveyLink{
+    font-size:1.2rem;
+}
+.info{
+    margin-top:5px;
+    margin-bottom:0px;
+    font-size:1.2rem;
+    font-weight:bold;
+    text-align:center;
+    text-decoration: underline;
+}
+.programLink, .internshipLink{
+    margin-top:0px;
+    font-size:1rem;
+    display:inline;
+}
+.programExpert, .volunteeringExpert, .internshipExpert{
+    margin-top:0px;
+    font-size:1rem;
+}
+
+
+
+
+
+
+.program:hover{
+    color:red;
+}
+.volunteering:hover{
+    color:red;
+}
+.internship:hover{
+    color:red;
 }
