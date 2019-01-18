@@ -97,6 +97,19 @@ var internship = [
     
     
 $("document").ready(function(){
+    $("#freshman").click(function(){
+        window.location.replace("freshman.html");
+    });
+    $("#sophomore").click(function(){
+        window.location.replace("sophomore.html");
+    });
+    $("#junior").click(function(){
+        window.location.replace("junior.html");
+    });
+    $("#senior").click(function(){
+        window.location.replace("senior.html");
+    });
+    
     programDisplay();
     volunteeringDisplay();
     internshipDisplay();
