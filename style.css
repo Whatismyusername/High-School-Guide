@@ -142,12 +142,10 @@ hr{
 
 
 
-.program:hover{
+.program:hover, .volunteering:hover, .internship:hover{
     color:red;
 }
-.volunteering:hover{
+.heading:hover{
     color:red;
-}
-.internship:hover{
-    color:red;
+    cursor:pointer;
 }
